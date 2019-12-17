@@ -1,6 +1,6 @@
 <?php
 
-/* @var $this \yii\web\View */
+/* @var $this yii\web\View */
 
 /* @var $content string */
 
@@ -9,6 +9,7 @@ use yii\helpers\Html;
 
 AppAsset::register($this);
 ?>
+
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
@@ -93,7 +94,7 @@ AppAsset::register($this);
                 <img src="images/ban1.jpg">
                 <a href="#">
                     <h2>Снаряжение для туризма</h2>
-                    <p>Широкий выбор уристического снаряжения</p>
+                    <p>Широкий выбор туристического снаряжения</p>
                     <span>Подробнее</span>
                 </a>
             </div>
